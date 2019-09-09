@@ -56,7 +56,7 @@ def get_hot_comments(response):
 
 
 def write_to_file(datalist):
-    //在当前目录下存储数据
+    #在当前目录下存储数据
     os.path.abspath('.')
     print("请输入要存储的文件名：")
     file = input()
