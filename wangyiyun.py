@@ -10,7 +10,7 @@ import codecs
 import os
 
 """
-    爬取网易云音乐歌曲的精彩评论
+    爬取网易云音乐歌曲热门评论
 """
 
 
@@ -56,7 +56,7 @@ def get_hot_comments(response):
 
 
 def write_to_file(datalist):
-    print('开始将数据持久化……')
+    //在当前目录下存储数据
     os.path.abspath('.')
     print("请输入要存储的文件名：")
     file = input()
